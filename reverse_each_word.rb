@@ -18,7 +18,7 @@
     array.collect do |string|
       test_array << string.reverse
     end
-    test_aray.joi(" ")
+    test_array.join(" ")
   end
   
   reverse_each_word("Hello there, and how are you")
